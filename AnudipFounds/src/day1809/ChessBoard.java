@@ -10,17 +10,27 @@ public class ChessBoard {
     
         System.out.print("Enter column character: ");
         char ch = scanner.next().charAt(0);
-	
-        if(num>0&&num<9 && ch>='a' && ch<='h') {
-			if(num%2==1 && ch=='a' || ch=='c' || ch=='e' || ch=='G') {
-				System.out.println("black");
+        
+        if(num>0 && num<9 && ch>='a' && ch<='h') {
+			if(ch=='a' || ch=='c' || ch=='e' || ch=='g') {
+				if(num%2==1) {
+					System.out.println("black "+num+""+ch);
+				}
+				else {
+					System.out.println("white "+num+""+ch);
+				}
 			}
-			else {
-				System.out.println("white");
-			}
-		}
+	        else {
+	        	if(num%2==1) {
+					System.out.println("white "+num+""+ch);
+				}
+				else {
+					System.out.println("black "+num+""+ch);
+				}
+	        }
+        }
         else {
-        	System.out.println("invaild input");
+        	System.out.println("Invaild ");
         }
 	}
 }
