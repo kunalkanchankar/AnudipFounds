@@ -13,6 +13,9 @@ public class StarPattern {
             for (int j=row; j>=i; j--){
                 System.out.print(j+" "); //Put * star for star pattern
             }
+            for (int j=row; j<=i; j++){
+                System.out.print(j); //Put * star for star pattern
+            }
             System.out.println();
         }
     }
