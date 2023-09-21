@@ -4,25 +4,22 @@ import java.util.Scanner;
 
 public class Pattern {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-//		Entering value for roll number 
-        System.out.print("Enter your Roll number: ");
-        int rollno = scanner.nextInt();
-        // this is the statment where we check the rollno in which
-//        group it belongs
-        if(rollno%4==1) { /* we mod divide rollno by 4 because all 
-        	patterns have difference of 4 
-        	and then we check which group it bolong.*/
-        	System.out.println("Sapphire Group");        
+		int n = 3; // we need to print 3 line in the pattern
+
+        // Loop for each row
+        for (int i = 1; i <= n; i++) {
+            // first we print increasing order like 1 2 3
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + " ");
+            }
+
+            // the we print decreasing orde r like 3 2 1 
+             for (int k = i -1; k >= 1; k--) {
+                System.out.print(k + " "); // we use print because we need to print values in single line 
+            }
+            // when it false it will go to new line 
+            System.out.println();
         }
-        else if(rollno%4==2) {
-        	System.out.println("Perl Group");
-        }
-        else if (rollno%4==3) {
-        	System.out.println("Ruby Gropu");
-        }
-        else {
-        	System.out.println("Emerald Group");
-        }
+		
 	}
 }
