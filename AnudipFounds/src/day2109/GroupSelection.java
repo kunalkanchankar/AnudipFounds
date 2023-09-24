@@ -24,7 +24,6 @@ public class GroupSelection {
         else {
         	System.out.println("Emerald Group");
         } 
-
 	}
 
 }
