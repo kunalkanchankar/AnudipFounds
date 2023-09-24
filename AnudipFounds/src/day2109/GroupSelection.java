@@ -20,7 +20,7 @@ public class GroupSelection {
         }
         else if (rollno%4==3) {
         	System.out.println("Ruby Gropu");
-        }
+        } 
         else {
         	System.out.println("Emerald Group");
         }
