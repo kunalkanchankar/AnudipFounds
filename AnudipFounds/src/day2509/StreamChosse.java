@@ -7,10 +7,8 @@ public class StreamChosse {
 		Demo obj = new Demo();		
 	}
 }
-
 class Demo {
 	public Demo() {
-		
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter English mark: ");
         int engmark = scanner.nextInt();
