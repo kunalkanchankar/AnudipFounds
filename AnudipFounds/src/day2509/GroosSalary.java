@@ -22,7 +22,5 @@ public class GroosSalary {
         System.out.println("House Rent Allowance: " + hra);
         System.out.println("Provident Fund: " + pf);
         System.out.println("Gross Salary : " + grossSalary);
-
-       
     }
 }
