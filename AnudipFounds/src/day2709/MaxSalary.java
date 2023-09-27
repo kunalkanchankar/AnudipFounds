@@ -21,14 +21,10 @@ public class MaxSalary {
             }
         }
 
-        // Print the maximum salary and the name of the employee with the maximum salary
         System.out.println("maximum salary : " + maxSalary);
         System.out.println("Employee name : " + ename);
 	}
-
 }
-
-
 
 class Employee{
 	public
@@ -46,7 +42,7 @@ class Employee{
 	}
 	public String getName() {
         return name;
-}
+	}
 }
 
 
