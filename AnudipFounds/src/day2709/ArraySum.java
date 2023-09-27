@@ -10,6 +10,7 @@ public class ArraySum {
 		marks[0] = marks[marks.length-1];
 		marks[marks.length-1] = temp;
 		System.out.print("\nAfter Swap : \nfirst = "+marks[0]+"\nLast = "+marks[marks.length-1]);
-	
+		
+		
 	}
 }
