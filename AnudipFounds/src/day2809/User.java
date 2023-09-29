@@ -25,7 +25,5 @@ public class User {
         for (int i = 0; i < obj.length; i++) {
         	System.out.println("UserID : " + obj[i].userid+"\nName : "+obj[i].name+"\nPassword : "+obj[i].password+"\n");
         }
-
 	}
-
 }
