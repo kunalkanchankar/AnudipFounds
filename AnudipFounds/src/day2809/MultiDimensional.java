@@ -24,4 +24,4 @@ public class MultiDimensional {
 			System.out.print("\n");
 		}
 	}
-}
+} 

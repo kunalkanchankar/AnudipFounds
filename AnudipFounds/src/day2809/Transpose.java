@@ -14,7 +14,7 @@ public class Transpose {
 			for(int j=0;j<c[i].length;j++) {
 				System.out.print(" "+c[i][j]);
 			}
-			System.out.print("\n");
+			System.out.print("\n"); 
 		}
 	}
 }

@@ -15,7 +15,7 @@ class Demo{
 public class User {
 
 	public static void main(String[] args) {
-		Demo[] obj = new Demo[5];
+		Demo[] obj = new Demo[5]; 
         obj[0] = new Demo(101,"kunal","pass123");
         obj[1] = new Demo(202,"vivek","word123");
         obj[2] = new Demo(302,"Pratik","go123");

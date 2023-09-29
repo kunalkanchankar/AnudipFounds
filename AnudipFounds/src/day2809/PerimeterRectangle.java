@@ -20,7 +20,7 @@ class Rectangle{
 		peri = 2 * (width+length);
 		return peri;
 	}
-}
+} 
 
 public class PerimeterRectangle {
 	public static void main(String[] args) {
