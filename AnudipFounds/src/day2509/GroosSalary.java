@@ -18,7 +18,7 @@ public class GroosSalary {
         double grossSalary = basicSalary + da + hra - pf;
 
         // Display allowances and gross salary
-        System.out.println("Dearness Allowance:" + da);
+        System.out.println("Dearness Allowance:" + da); 
         System.out.println("House Rent Allowance: " + hra);
         System.out.println("Provident Fund: " + pf);
         System.out.println("Gross Salary : " + grossSalary);
