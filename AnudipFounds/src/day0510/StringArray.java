@@ -13,6 +13,7 @@ public class StringArray {
 	public static void main(String[] args) {
 		
 		String sen = "There are 0 traffic rules Followed by 100 million @ People";
+		int arr [] [] = {1,2,4,5,6};
 		int len = sen.length();
 		
 		Findings obj = new Findings();
@@ -21,10 +22,8 @@ public class StringArray {
 		obj.alphabets(sen,len);
 		obj.specialChar(sen,len);
 		obj.vowels(sen,len);
-		obj.works(sen,len);
-			
+		obj.works(sen,len);		
 	}
-
 }
 class Findings{
 	void digit(String sen , int len) {
