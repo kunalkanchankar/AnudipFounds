@@ -12,3 +12,10 @@ public class Arithmetic {
 		System.out.println(mul.mul(10,20));
 	}
 }
+
+
+	
+	
+	
+	
+	
