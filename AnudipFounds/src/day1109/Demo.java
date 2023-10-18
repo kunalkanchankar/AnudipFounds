@@ -1,9 +1,8 @@
 package day1109;
 
 
-class Demo {
-public static void main (String args[]){
-
-System.out.println("k"+args[0]);
-}
+public class Demo {
+	public void Run() {
+		System.out.println("Another package Demo Complied Succes");	
+	}
 }
