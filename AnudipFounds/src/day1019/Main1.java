@@ -30,7 +30,7 @@ class Mussoorie extends HillStation{
 	void famousfor() {
 		System.out.println("Famous for nature and love");
 	}
-}
+} 
 class Gulmarg extends HillStation{
 	void location(){
 		System.out.println("Loacation is Hill Gulmarg ");
