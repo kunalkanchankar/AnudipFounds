@@ -12,7 +12,7 @@ public class Main1 {
 		number.add(50);
 		number.add(20);
 		number.add(30);
-		snumber.add(25);
+		number.add(25);
 		System.out.println(number.peek());
 		System.out.println(number.poll());
 		System.out.println(number.poll());
