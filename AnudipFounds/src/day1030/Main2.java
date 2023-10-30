@@ -8,7 +8,6 @@ public class Main2 {
     public static void main(String[] args) {
 
         ArrayList<Student> students = new ArrayList<>();
-        
         students.add(new Student(104, "Vivek", 87));
         students.add(new Student(102, "Sejal", 67));
         students.add(new Student(101, "Rekha", 77));
@@ -25,7 +24,6 @@ public class Main2 {
 }
 
 class NameComparator implements Comparator<Student> {
-
     @Override
     public int compare(Student s1, Student s2) {
         return s1.name.compareTo(s2.name);
