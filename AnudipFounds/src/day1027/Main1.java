@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.TreeSet;
 public class Main1 {
-	public static void main(String[] args) { // TODO Auto-generated method stub
+	public static void main(String[] args) { 
 		PriorityQueue<Integer> number=new PriorityQueue<>();
 		number.add(50);
 		number.add(20);
